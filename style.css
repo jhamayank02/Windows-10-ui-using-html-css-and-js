@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('win10img/bg2.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.taskbar{
+    position: absolute;
+    bottom: 0;
+    background: #d5d5d6;
+    width: 100%;
+}
+
+#taskbarright{
+    position: absolute;
+    right: 0;
+}
+
+.thispc{
+    position: absolute;
+    /* top: 50px; */
+    top: -538px;
+    left: 100px;
+}
+
+.controlpanel{
+    position: absolute;
+    /* top: 50px; */
+    top: -638px;
+    left: 100px;
+}
+
+.fileexp{
+    position: absolute;
+    /* top: 50px; */
+    top: -638px;
+    left: 100px;
+}
+
+.chrome{
+    position: absolute;
+    top: 0px;
+    top: -694px;
+    left: 100px;
+}
+
+.search{
+    position: absolute;
+    /* top: 84px; */
+    top: -645px;
+    left: 65px;
+}
+
+.start{
+    position: absolute;
+    top: 80px;
+    top: -645px;
+    left: 0px;
+}
+
+.vscode{
+    position: absolute;
+    top: 0px;
+    top: -730px;
+    left: 100px;
+}
